@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   BASE GLOBAL
+========================= */
+@layer base {
+  body {
+    @apply bg-background text-gray-200 font-sans antialiased;
+    @apply selection:bg-primary selection:text-black;
+    min-height: 100vh;
+  }
+
+  input,
+  textarea,
+  select {
+    @apply bg-surface/80 border border-gray-700/50 rounded-xl;
+    @apply px-4 py-2 text-white placeholder-gray-500;
+    @apply focus:border-primary focus:ring-1 focus:ring-primary;
+    @apply outline-none transition-all duration-300;
+  }
+
+  i {
+    @apply font-normal text-gray-400;
+  }
+}
+
+/* =========================
+   COMPONENTES REUTILIZÁVEIS
+========================= */
+@layer components {
+  .prompt-button {
+    @apply cursor-pointer text-primary underline;
+    @apply hover:text-secondary transition-colors;
+  }
+
+  .border-hairline {
+    @apply border border-gray-800/60;
+  }
+
+  .button {
+    @apply inline-flex items-center justify-center;
+    @apply bg-gradient-to-r from-primary to-secondary;
+    @apply hover:from-secondary hover:to-primary;
+    @apply text-black font-semibold rounded-xl;
+    @apply px-6 py-3 shadow-lg shadow-primary/20;
+    @apply transition-all duration-300;
+    @apply transform hover:-translate-y-0.5;
+  }
+
+  .glass-panel {
+    @apply bg-surface/60 backdrop-blur-md;
+    @apply border border-gray-800/50;
+    @apply shadow-xl rounded-2xl;
+  }
+
+  .image-wrapper {
+    @apply relative w-full aspect-square;
+    @apply rounded-xl overflow-hidden shadow-2xl;
+  }
+}
