@@ -79,7 +79,7 @@ Uma interface de chat moderna e personalizável para modelos de linguagem, supor
 
 ## 🖼️ Live Preview
 
-
+<p>
 ┌─────────────────────────────────────────────────────────────┐
 │  [Logo]                                    🌐 EN | PT | ES  │
 │                                                             │
@@ -101,6 +101,8 @@ Uma interface de chat moderna e personalizável para modelos de linguagem, supor
 │  └─────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────┘
 
+
+</p>
 
 ## 🌍 Internacionalização (i18n)
 
