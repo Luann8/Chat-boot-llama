@@ -24,11 +24,8 @@ Uma interface de chat moderna e personalizável para modelos de linguagem, supor
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![Ollama](https://img.shields.io/badge/Ollama-Local_AI-blue)](https://ollama.com/)
 [![Replicate](https://img.shields.io/badge/Replicate-Cloud_AI-purple)](https://replicate.com/)
->>>>>>> 60d989c (docs: README completo com guia de instalação e funcionalidades)
 
----
 
-<<<<<<< HEAD
 <!-- ============================================ -->
 <!-- HEADER                                        -->
 <!-- ============================================ -->
