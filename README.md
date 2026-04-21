@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <p align="center">
     <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -13,7 +12,7 @@
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" />
     <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome" />
 </p>
-=======
+
 # 🦙 Chat-boot-llama
 
 **Plataforma de chat com IA — White-Label, Open-Source e Multimodal**
@@ -119,18 +118,18 @@ Uma interface de chat moderna e personalizável para modelos de linguagem, supor
 
 <pre style="background-color: #f6f8fa; padding: 16px; border-radius: 8px; overflow-x: auto;">
 ┌─────────────────────────────────────────────────────────────┐
-│                      ✨ LOGO / BRAND                         │
+│                      ✨ LOGO / BRAND                        │
 │                                                             │
 │                 [  ● SYSTEM ONLINE  ]  ← animated badge     │
 │                                                             │
 │                    BUILD SOMETHING AMAZING                  │
 │            Modern UI components for your next project       │
 │                                                             │
-│              ┌─────────────────────────┐                   │
-│              │  🚀 Get Started →       │                   │
-│              └─────────────────────────┘                   │
+│              ┌─────────────────────────┐                    │
+│              │  🚀 Get Started →       │                    │
+│              └─────────────────────────┘                    │
 │                                                             │
-│         🌐 English  |  Português  |  Español               │
+│         🌐 English  |  Português  |  Español                │
 └─────────────────────────────────────────────────────────────┘
 </pre>
 
