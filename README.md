@@ -1,292 +1,188 @@
 
-<p align="center">
-    <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-    <img src="https://img.shields.io/badge/i18n-Context_API-4B32C3?style=for-the-badge&logo=local&logoColor=white" alt="i18n" />
-    <img src="https://img.shields.io/badge/ESLint-Enabled-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
-    <img src="https://img.shields.io/badge/Next.js-Enabled-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="next" />
-
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" />
-    <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome" />
-</p>
-
 # 🦙 Chat-boot-llama
 
 **Plataforma de chat com IA — White-Label, Open-Source e Multimodal**
 
 Uma interface de chat moderna e personalizável para modelos de linguagem, suportando execução **local via Ollama** ou **na nuvem via Replicate**. Construída com Next.js 14 e design Glassmorphism.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
-[![Ollama](https://img.shields.io/badge/Ollama-Local_AI-blue)](https://ollama.com/)
-[![Replicate](https://img.shields.io/badge/Replicate-Cloud_AI-purple)](https://replicate.com/)
-
-
-<!-- ============================================ -->
-<!-- HEADER                                        -->
-<!-- ============================================ -->
-
-<h1 align="center">
-    🚀 CallToAction UI Component
-</h1>
-
 <p align="center">
-    A modern, production-ready <strong>Call To Action (CTA)</strong> component built with <strong>React + Tailwind CSS + i18n</strong>.<br />
-    Supports <strong>English, Portuguese (PT-BR), and Spanish</strong> out of the box.
+    <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
 </p>
 
-<p align="center">
-    <strong>🎨 Glassmorphism · Glow effects · Animated badges · Fully responsive</strong>
-</p>
+---
 
-<p align="center">
-    <a href="https://github.com/replicate/llama-chat">
-        <img src="https://img.shields.io/badge/INSPIRED_BY-Llama_Chat_·_Replicate-000000?style=for-the-badge&logo=github&logoColor=white" alt="Inspired by Llama Chat" />
-    </a>
-</p>
+## 📋 Tabela de Conteúdos
 
-<hr />
+- [✨ Features](#-features)
+- [🧱 Tech Stack](#-tech-stack)
+- [🖼️ Live Preview](#️-live-preview)
+- [🌍 Internacionalização (i18n)](#-internacionalização-i18n)
+- [📦 Estrutura do Projeto](#-estrutura-do-projeto)
+- [🚀 Quick Start](#-quick-start)
+- [🎨 Design Highlights](#-design-highlights)
+- [📄 License](#-license)
 
-<!-- ============================================ -->
-<!-- TABLE OF CONTENTS (optional but clean)       -->
-<!-- ============================================ -->
+---
 
-<h2>📋 Table of Contents</h2>
-
-<ul>
-    <li><a href="#-features">✨ Features</a></li>
-    <li><a href="#-tech-stack">🧱 Tech Stack</a></li>
-    <li><a href="#-live-preview">🖼️ Live Preview</a></li>
-    <li><a href="#-internationalization-i18n">🌍 Internationalization (i18n)</a></li>
-    <li><a href="#-project-structure">📦 Project Structure</a></li>
-    <li><a href="#-quick-start">🚀 Quick Start</a></li>
-    <li><a href="#-usage-example">🧩 Usage Example</a></li>
-    <li><a href="#-design-highlights">🎨 Design Highlights</a></li>
-    <li><a href="#-inspiration--credits">🧠 Inspiration & Credits</a></li>
-    <li><a href="#-license">📄 License</a></li>
-</ul>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- FEATURES                                      -->
-<!-- ============================================ -->
-
-<h2 id="✨-features">✨ Features</h2>
-
-<ul>
-    <li>✅ <strong>3 languages supported</strong> – English, Português (BR), Español</li>
-    <li>✅ <strong>Glassmorphism UI</strong> – Modern blur effects + subtle borders</li>
-    <li>✅ <strong>Dynamic glow / spotlight background</strong> – Premium SaaS feel</li>
-    <li>✅ <strong>Animated badge</strong> with pulse effect</li>
-    <li>✅ <strong>Fully responsive</strong> – Works on mobile, tablet, desktop</li>
-    <li>✅ <strong>Lightweight</strong> – Only React + Tailwind + Context API</li>
-    <li>✅ <strong>Ready for Vercel / Netlify deployment</strong></li>
-    <li>✅ <strong>Clean, accessible markup</strong></li>
-</ul>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- TECH STACK                                    -->
-<!-- ============================================ -->
-
-<h2 id="🧱-tech-stack">🧱 Tech Stack</h2>
-
-<table>
-    <thead>
-        <tr><th>Area</th><th>Technology</th><th>Badge</th></tr>
-    </thead>
-    <tbody>
-        <tr><td>Frontend</td><td>React 18</td><td><img src="https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react" alt="React" /></td></tr>
-        <tr><td>Styling</td><td>Tailwind CSS 3</td><td><img src="https://img.shields.io/badge/Tailwind-3.x-06B6D4?style=flat-square&logo=tailwindcss" alt="Tailwind" /></td></tr>
-        <tr><td>i18n</td><td>Context API + Custom Hook</td><td><img src="https://img.shields.io/badge/i18n-Context_API-4B32C3?style=flat-square" alt="i18n" /></td></tr>
-        <tr><td>Animations</td><td>CSS (keyframes, transitions, blur)</td><td><img src="https://img.shields.io/badge/Animations-CSS_Modern-1572B6?style=flat-square&logo=css3" alt="CSS3" /></td></tr>
-    </tbody>
-</table>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- LIVE PREVIEW (ASCII / placeholder)           -->
-<!-- ============================================ -->
-
-<h2 id="🖼️-live-preview">🖼️ Live Preview</h2>
-
-<pre style="background-color: #f6f8fa; padding: 16px; border-radius: 8px; overflow-x: auto;">
-┌─────────────────────────────────────────────────────────────┐
-│                      ✨ LOGO / BRAND                        │
-│                                                             │
-│                 [  ● SYSTEM ONLINE  ]  ← animated badge     │
-│                                                             │
-│                    BUILD SOMETHING AMAZING                  │
-│            Modern UI components for your next project       │
-│                                                             │
-│              ┌─────────────────────────┐                    │
-│              │  🚀 Get Started →       │                    │
-│              └─────────────────────────┘                    │
-│                                                             │
-│         🌐 English  |  Português  |  Español                │
-└─────────────────────────────────────────────────────────────┘
-</pre>
-
-<p><em>Glassmorphism background with dynamic glow + radial gradient. Fully interactive language switcher.</em></p>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- INTERNATIONALIZATION                         -->
-<!-- ============================================ -->
-
-<h2 id="🌍-internationalization-i18n">🌍 Internationalization (i18n)</h2>
-
-<p>The component uses a simple <strong>Context API</strong> provider and the <code>useLang()</code> hook to manage translations.</p>
-
-<h3>Supported languages:</h3>
-<ul>
-    <li><img src="https://flagcdn.com/w20/us.png" width="18" style="vertical-align: middle;"> <strong>English</strong> (default)</li>
-    <li><img src="https://flagcdn.com/w20/br.png" width="18" style="vertical-align: middle;"> <strong>Português (BR)</strong></li>
-    <li><img src="https://flagcdn.com/w20/es.png" width="18" style="vertical-align: middle;"> <strong>Español</strong></li>
-</ul>
-
-<h3>Usage inside component:</h3>
-<pre style="background-color: #f6f8fa; padding: 16px; border-radius: 8px;">
-const { t, language, setLanguage } = useLang();
-
-return (
-    &lt;h1&gt;{t("title")}&lt;/h1&gt;
-    &lt;p&gt;{t("subtitle")}&lt;/p&gt;
-    &lt;span&gt;{t("badge")}&lt;/span&gt;
-);
-</pre>
-
-<h3>Translation files structure:</h3>
-
-<p><strong>📄 en.json</strong></p>
-<pre style="background-color: #f6f8fa;">
-{
-  "title": "Build something amazing",
-  "subtitle": "Modern UI components for your application",
-  "badge": "✅ System online"
-}
-</pre>
-
-<p><strong>📄 pt.json</strong></p>
-<pre style="background-color: #f6f8fa;">
-{
-  "title": "Construa algo incrível",
-  "subtitle": "Componentes modernos para seu aplicativo",
-  "badge": "✅ Sistema online"
-}
-</pre>
-
-<p><strong>📄 es.json</strong></p>
-<pre style="background-color: #f6f8fa;">
-{
-  "title": "Construye algo increíble",
-  "subtitle": "Componentes modernos para tu aplicación",
-  "badge": "✅ Sistema en línea"
-}
-</pre>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- PROJECT STRUCTURE                             -->
-<!-- ============================================ -->
-
-<h2 id="📦-project-structure">📦 Project Structure</h2>
-
-<pre style="background-color: #f6f8fa; padding: 16px; border-radius: 8px;">
-src/
-├── components/
-│   └── CallToAction.jsx          # Main CTA component
-├── LangContext/
-│   ├── index.js                  # Context provider + useLang hook
-│   ├── en.json                   # English translations
-│   ├── pt.json                   # Portuguese (BR) translations
-│   └── es.json                   # Spanish translations
-└── App.js                        # Root with LangProvider
-</pre>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- QUICK START                                   -->
-<!-- ============================================ -->
-
-<h2 id="🚀-quick-start">🚀 Quick Start</h2>
-
-<pre style="background-color: #1f2328; color: #e6edf3; padding: 16px; border-radius: 8px; overflow-x: auto;">
-<span style="color:#79c0ff;"># Clone the repository</span>
-git clone https://github.com/your-username/cta-component.git
-
-<span style="color:#79c0ff;"># Navigate into the folder</span>
-cd cta-component
-
-<span style="color:#79c0ff;"># Install dependencies</span>
-npm install
-
-<span style="color:#79c0ff;"># Start development server</span>
-=======
-## ✨ Funcionalidades
+## ✨ Features
 
 ### 🎨 UI / Design
 - **Tema Glassmorphism** — fundo escuro `#0f1115`, painéis com `backdrop-blur` e bordas sutis
-- **Layout minimalista e compacto** — estilo Vercel/Linear, sem poluição visual
 - **CallToAction animado** — spotlight, grid sutil e badge pulsante
 - **Totalmente responsivo** — mobile-first
+- **Micro-interações** — hover effects, transições suaves
 
 ### 🌐 Internacionalização (i18n)
 - Suporte a **3 idiomas**: 🇧🇷 Português, 🇺🇸 Inglês, 🇪🇸 Espanhol
 - Seletor de idioma no navbar — muda toda a interface instantaneamente
-- Persistência via `localStorage` — lembra o idioma escolhido
 - Contexto React (`LangContext`) com hook `useLang()`
 
 ### 🤖 Provedores de IA (alternáveis nas configurações)
 
-#### ☁️ Replicate (Nuvem)
-| Modelo | Tipo |
-|--------|------|
-| Meta Llama 3 8B | Texto (padrão) |
-| Meta Llama 3 70B | Texto |
-| Meta Llama 3.1 405B | Texto (premium) |
-| Meta Llama 2 70B/13B/7B | Texto (legado) |
-| LLaVA 13B | Visão (imagens) |
-| Salmonn | Áudio |
-| VideoLLaMA 3 7B | Vídeo |
-
-#### 🖥️ Ollama (Local — 100% offline e gratuito)
-- Qualquer modelo instalado localmente (`llama3`, `llava`, `mistral`, `gemma2`, etc.)
-- URL do servidor configurável (padrão: `http://localhost:11434`)
-- Suporte a imagens com modelos de visão (`llava`)
-- Streaming via NDJSON em tempo real
+| Provedor | Modelos | Tipo |
+|----------|---------|------|
+| **☁️ Replicate** | Llama 3 8B/70B, Llama 3.1 405B, LLaVA 13B, Salmonn, VideoLLaMA | Texto/Visão/Áudio/Vídeo |
+| **🖥️ Ollama** | Qualquer modelo local (llama3, llava, mistral, gemma2) | Texto/Visão (100% offline) |
 
 ### 📎 Suporte Multimodal
 - **Imagens** — enviadas como base64, processadas por LLaVA
 - **Áudio** — processado pelo modelo Salmonn
 - **Vídeo** — processado pelo VideoLLaMA 3
 - **Arquivos de texto** (`.txt`, `.csv`, `.md`) — conteúdo injetado no chat
-- Preview de mídia com botão de remoção antes de enviar
 
 ### 🛡️ Tratamento de Erros
-- **402** (sem créditos Replicate) → toast com link para billing
-- **429** (rate limit) → toast com tempo de espera extraído da resposta
+- **402** (sem créditos) → toast com link para billing
+- **429** (rate limit) → toast com tempo de espera
 - **503** (Ollama offline) → toast com instrução `ollama serve`
-- **Modelo sem visão + imagem** → aviso bloqueando envio antes de desperdiçar tempo
-
-### ⚙️ Painel de Configurações
-- Toggle **☁️ Replicate / 🖥️ Ollama** com campos contextuais
-- System prompt personalizável
-- Controles de Temperatura, Top-p e Máximo de Tokens
-- Campo seguro para o token da API Replicate
 
 ---
 
-## 🚀 Como usar
+## 🧱 Tech Stack
+
+| Categoria | Tecnologia | Badge |
+|-----------|------------|-------|
+| **Framework** | Next.js 14 (App Router) | <img src="https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js" alt="Next.js" /> |
+| **UI** | React 18 | <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react" alt="React" /> |
+| **Estilização** | Tailwind CSS 3 | <img src="https://img.shields.io/badge/Tailwind-3.x-06B6D4?style=flat-square&logo=tailwindcss" alt="Tailwind" /> |
+| **IA na Nuvem** | Replicate API | <img src="https://img.shields.io/badge/Replicate-Cloud_AI-purple?style=flat-square" alt="Replicate" /> |
+| **IA Local** | Ollama | <img src="https://img.shields.io/badge/Ollama-Local_AI-000?style=flat-square" alt="Ollama" /> |
+| **Streaming** | Vercel AI SDK (`ai`) | <img src="https://img.shields.io/badge/Vercel_AI-SDK-black?style=flat-square" alt="Vercel AI" /> |
+| **i18n** | React Context API (custom) | <img src="https://img.shields.io/badge/i18n-Context_API-4B32C3?style=flat-square" alt="i18n" /> |
+| **Notificações** | react-hot-toast | <img src="https://img.shields.io/badge/Toasts-hot--toast-FF6B6B?style=flat-square" alt="Toast" /> |
+| **Componentes UI** | Headless UI | <img src="https://img.shields.io/badge/Headless_UI-66E3FF?style=flat-square" alt="Headless UI" /> |
+| **Ícones** | Heroicons | <img src="https://img.shields.io/badge/Heroicons-3B82F6?style=flat-square" alt="Heroicons" /> |
+
+---
+
+## 🖼️ Live Preview
+
+
+┌─────────────────────────────────────────────────────────────┐
+│  [Logo]                                    🌐 EN | PT | ES  │
+│                                                             │
+│                 [  ● SYSTEM ONLINE  ]  ← animated badge     │
+│                                                             │
+│                    BUILD SOMETHING AMAZING                  │
+│            Modern AI chat interface for your next project   │
+│                                                             │
+│              ┌─────────────────────────┐                    │
+│              │  🚀 Get Started →       │                    │
+│              └─────────────────────────┘                    │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │  💬 Chat messages appear here...                    │   │
+│  └─────────────────────────────────────────────────────┘   │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │  📎 Attach  │  Type your message...        │  📤    │   │
+│  └─────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────┘
+
+
+## 🌍 Internacionalização (i18n)
+
+O componente usa **Context API** e o hook `useLang()` para gerenciar traduções.
+
+### Idiomas suportados:
+- 🇺🇸 **English** (default)
+- 🇧🇷 **Português (BR)**
+- 🇪🇸 **Español**
+
+### Uso dentro do componente:
+
+```jsx
+const { t, language, setLanguage } = useLang();
+
+return (
+    <h1>{t("title")}</h1>
+    <p>{t("subtitle")}</p>
+    <span>{t("badge")}</span>
+);
+```
+
+### Arquivos de tradução:
+
+**📄 en.json**
+```json
+{
+  "title": "Build something amazing",
+  "subtitle": "Modern AI chat interface for your application",
+  "badge": "✅ System online"
+}
+```
+
+**📄 pt.json**
+```json
+{
+  "title": "Construa algo incrível",
+  "subtitle": "Interface de chat moderna para seu aplicativo",
+  "badge": "✅ Sistema online"
+}
+```
+
+**📄 es.json**
+```json
+{
+  "title": "Construye algo increíble",
+  "subtitle": "Interfaz de chat moderna para tu aplicación",
+  "badge": "✅ Sistema en línea"
+}
+```
+
+---
+
+## 📦 Estrutura do Projeto
+
+```
+app/
+├── api/
+│   └── route.js              # Roteamento Replicate / Ollama
+├── components/
+│   ├── CallToAction.jsx      # Header animado (glassmorphism)
+│   ├── ChatForm.jsx          # Input com anexo de mídia
+│   ├── Dropdown.jsx          # Seletor de modelos
+│   ├── EmptyState.jsx        # Estado inicial do chat
+│   ├── Message.jsx           # Renderização de mensagens
+│   ├── Metrics.jsx           # Métricas de performance
+│   ├── SlideOver.jsx         # Painel de configurações
+│   └── TokenForm.jsx         # Tela de configuração do token
+├── LangContext/
+│   ├── index.js              # Context provider + useLang hook
+│   ├── en.json               # English translations
+│   ├── pt.json               # Portuguese (BR) translations
+│   └── es.json               # Spanish translations
+├── layout.js                 # Layout raiz com LangProvider
+└── page.js                   # Orquestrador principal
+styles/
+└── globals.css               # Design system (tokens, glassmorphism)
+```
+
+---
+
+## 🚀 Quick Start
 
 ### Pré-requisitos
 - Node.js 18+
@@ -295,115 +191,19 @@ npm install
 ### Instalação
 
 ```bash
+# Clone o repositório
 git clone https://github.com/Luann8/Chat-boot-llama.git
+
+# Entre na pasta
 cd Chat-boot-llama
+
+# Instale as dependências
 npm install
->>>>>>> 60d989c (docs: README completo com guia de instalação e funcionalidades)
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-</pre>
+```
 
-<<<<<<< HEAD
-<p>Open <strong>http://localhost:5173</strong> to see the component in action.</p>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- USAGE EXAMPLE                                 -->
-<!-- ============================================ -->
-
-<h2 id="🧩-usage-example">🧩 Usage Example</h2>
-
-<pre style="background-color: #f6f8fa; padding: 16px; border-radius: 8px; overflow-x: auto;">
-import CallToAction from "./components/CallToAction";
-import { LangProvider } from "./LangContext";
-
-function App() {
-  return (
-    &lt;LangProvider&gt;
-      &lt;div className="min-h-screen bg-black"&gt;
-        &lt;CallToAction /&gt;
-      &lt;/div&gt;
-    &lt;/LangProvider&gt;
-  );
-}
-
-export default App;
-</pre>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- DESIGN HIGHLIGHTS                             -->
-<!-- ============================================ -->
-
-<h2 id="🎨-design-highlights">🎨 Design Highlights</h2>
-
-<ul>
-    <li>🌟 <strong>Dynamic spotlight glow</strong> – Radial gradients that follow mouse/eye flow</li>
-    <li>🧊 <strong>Glassmorphism card</strong> – backdrop-blur + semi-transparent borders</li>
-    <li>💡 <strong>Subtle noise texture</strong> – Premium feel without distraction</li>
-    <li>⚡ <strong>Micro-interactions</strong> – Badge pulse, button hover scale, smooth language switch</li>
-    <li>📐 <strong>Responsive typography</strong> – clamp() for fluid font sizes</li>
-</ul>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- INSPIRATION & CREDITS                         -->
-<!-- ============================================ -->
-
-<h2 id="🧠-inspiration--credits">🧠 Inspiration & Credits</h2>
-
-<p>
-This component draws heavy inspiration from modern SaaS design systems and the incredible work by <strong>Replicate</strong>.
-</p>
-
-<p align="center">
-    <a href="https://github.com/replicate/llama-chat">
-        <img src="https://img.shields.io/badge/Original_Project-Llama_Chat_·_Replicate-000?style=for-the-badge&logo=github" alt="Llama Chat Repo" />
-    </a>
-</p>
-
-<p>
-    The <strong>Llama Chat</strong> repository showcases state-of-the-art UI patterns for AI chat interfaces — 
-    our CTA component adopts similar visual language: glass effects, subtle glow, and a focus on conversion.
-</p>
-
-<p>Special thanks to the open-source community and Tailwind CSS team.</p>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- LICENSE                                       -->
-<!-- ============================================ -->
-
-<h2 id="📄-license">📄 License</h2>
-
-<p>
-    <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
-</p>
-
-<p>
-    This project is <strong>MIT licensed</strong> — free for study, personal projects, and commercial use.
-    Contributions and PRs are welcome! 🙌
-</p>
-
-<hr />
-
-<!-- ============================================ -->
-<!-- FOOTER                                        -->
-<!-- ============================================ -->
-
-<p align="center">
-    <strong>Made with ☁️ · React · Tailwind · i18n</strong><br />
-    <sub>English | Português (BR) | Español — switch languages seamlessly</sub>
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/badge/Built_for-Startups_and_SaaS-FF6B6B?style=flat-square" />
-    <img src="https://img.shields.io/badge/Ready_for-Vercel_·_Netlify-000?style=flat-square&logo=vercel" />
-</p>
-=======
 Acesse `http://localhost:3000`
 
 ---
@@ -436,53 +236,51 @@ O serviço inicia automaticamente. No app, vá em **⚙️ Configurações → �
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## 🎨 Design Highlights
 
-```
-app/
-├── api/
-│   └── route.js          # Roteamento Replicate / Ollama com tratamento de erros
-├── components/
-│   ├── CallToAction.js   # Header animado (glassmorphism)
-│   ├── ChatForm.js       # Input com anexo de mídia
-│   ├── Dropdown.js       # Seletor de modelos
-│   ├── EmptyState.js     # Estado inicial do chat
-│   ├── Message.js        # Renderização de mensagens
-│   ├── Metrics.js        # Métricas de performance
-│   ├── SlideOver.js      # Painel de configurações
-│   └── TokenForm.js      # Tela de configuração do token
-├── LangContext.js        # Contexto de internacionalização
-├── translations.js       # Dicionários PT / EN / ES
-├── layout.js             # Layout raiz com LangProvider
-└── page.js               # Orquestrador principal
-styles/
-└── globals.css           # Design system (tokens, glassmorphism)
-```
+- 🌟 **Dynamic spotlight glow** — Gradientes radiais que seguem o mouse
+- 🧊 **Glassmorphism card** — `backdrop-blur` + bordas semi-transparentes
+- 💡 **Subtle noise texture** — Textura sutil para sensação premium
+- ⚡ **Micro-interactions** — Badge pulsante, hover com scale, troca suave de idioma
+- 📐 **Responsive typography** — `clamp()` para tamanhos de fonte fluidos
 
 ---
 
-## 🌍 Internacionalização
+## 🧠 Inspiração & Créditos
 
-Para adicionar um novo idioma, edite `app/translations.js`:
+Este projeto é inspirado no trabalho incrível da **Replicate** e sua interface Llama Chat.
 
-```js
-export const translations = {
-  fr: {
-    title: "Plateforme IA White-Label",
-    // ... adicione todas as chaves
-  }
-};
-```
+<p align="center">
+    <a href="https://github.com/replicate/llama-chat">
+        <img src="https://img.shields.io/badge/Original_Project-Llama_Chat_·_Replicate-000?style=for-the-badge&logo=github" alt="Llama Chat Repo" />
+    </a>
+</p>
 
-Depois adicione a opção no seletor em `app/page.js`.
+Agradecimentos especiais à comunidade open-source e ao time do Tailwind CSS.
 
 ---
 
-## 📄 Licença
+## 📄 License
 
 MIT © [Luann8](https://github.com/Luann8)
 
 ---
 
-> Projeto open-source — fique à vontade para fazer fork, contribuir e personalizar! 🚀
->>>>>>> 60d989c (docs: README completo com guia de instalação e funcionalidades)
+<p align="center">
+    <strong>Feito com ☁️ · React · Next.js · Tailwind · i18n</strong><br />
+    <sub>🇺🇸 English | 🇧🇷 Português (BR) | 🇪🇸 Español — mude o idioma seamless</sub>
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Built_for-Startups_and_SaaS-FF6B6B?style=flat-square" />
+    <img src="https://img.shields.io/badge/Ready_for-Vercel_·_Netlify-000?style=flat-square&logo=vercel" />
+    <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome" />
+</p>
+```
+
+Este README agora está completo e unificado, combinando:
+- A tabela de tech stack do projeto original
+- O componente CallToAction com suas características
+- Guia completo de instalação e uso
+- Estrutura de internacionalização
+- Design highlights e créditos
