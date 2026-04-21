@@ -8,9 +8,6 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/PT--BR-Supported-00875F?style=flat-square&logo=googletranslate&logoColor=white" alt="Portuguese Support" />
-    <img src="https://img.shields.io/badge/ESPAÑOL-Supported-FF0000?style=flat-square&logo=googletranslate&logoColor=white" alt="Spanish Support" />
-    <img src="https://img.shields.io/badge/ENGLISH-Supported-0077B5?style=flat-square&logo=googletranslate&logoColor=white" alt="English Support" />
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" />
     <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome" />
 </p>
