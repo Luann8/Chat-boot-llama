@@ -77,33 +77,6 @@ Uma interface de chat moderna e personalizável para modelos de linguagem, supor
 
 ---
 
-## 🖼️ Live Preview
-
-<p>
-┌─────────────────────────────────────────────────────────────┐
-│  [Logo]                                    🌐 EN | PT | ES  │
-│                                                             │
-│                 [  ● SYSTEM ONLINE  ]  ← animated badge     │
-│                                                             │
-│                    BUILD SOMETHING AMAZING                  │
-│            Modern AI chat interface for your next project   │
-│                                                             │
-│              ┌─────────────────────────┐                    │
-│              │  🚀 Get Started →       │                    │
-│              └─────────────────────────┘                    │
-│                                                             │
-│  ┌─────────────────────────────────────────────────────┐    │
-│  │  💬 Chat messages appear here...                    │    │
-│  └─────────────────────────────────────────────────────┘    │
-│                                                             │
-│  ┌─────────────────────────────────────────────────────┐    │
-│  │  📎 Attach  │  Type your message...        │  📤    │    │
-│  └─────────────────────────────────────────────────────┘    │
-└─────────────────────────────────────────────────────────────┘
-
-
-</p>
-
 ## 🌍 Internacionalização (i18n)
 
 O componente usa **Context API** e o hook `useLang()` para gerenciar traduções.
