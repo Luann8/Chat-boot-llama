@@ -259,3 +259,5 @@ Este README agora está completo e unificado, combinando:
 - Guia completo de instalação e uso
 - Estrutura de internacionalização
 - Design highlights e créditos
+
+<img width="1872" height="955" alt="image" src="https://github.com/user-attachments/assets/48c7dbdb-e144-46df-98ca-ecfbc02db2ea" />
