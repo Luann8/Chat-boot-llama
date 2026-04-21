@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <p align="center">
     <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -12,8 +13,22 @@
     <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License" />
     <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome" />
 </p>
+=======
+# 🦙 Chat-boot-llama
 
+**Plataforma de chat com IA — White-Label, Open-Source e Multimodal**
 
+Uma interface de chat moderna e personalizável para modelos de linguagem, suportando execução **local via Ollama** ou **na nuvem via Replicate**. Construída com Next.js 14 e design Glassmorphism.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![Ollama](https://img.shields.io/badge/Ollama-Local_AI-blue)](https://ollama.com/)
+[![Replicate](https://img.shields.io/badge/Replicate-Cloud_AI-purple)](https://replicate.com/)
+>>>>>>> 60d989c (docs: README completo com guia de instalação e funcionalidades)
+
+---
+
+<<<<<<< HEAD
 <!-- ============================================ -->
 <!-- HEADER                                        -->
 <!-- ============================================ -->
@@ -220,9 +235,78 @@ cd cta-component
 npm install
 
 <span style="color:#79c0ff;"># Start development server</span>
+=======
+## ✨ Funcionalidades
+
+### 🎨 UI / Design
+- **Tema Glassmorphism** — fundo escuro `#0f1115`, painéis com `backdrop-blur` e bordas sutis
+- **Layout minimalista e compacto** — estilo Vercel/Linear, sem poluição visual
+- **CallToAction animado** — spotlight, grid sutil e badge pulsante
+- **Totalmente responsivo** — mobile-first
+
+### 🌐 Internacionalização (i18n)
+- Suporte a **3 idiomas**: 🇧🇷 Português, 🇺🇸 Inglês, 🇪🇸 Espanhol
+- Seletor de idioma no navbar — muda toda a interface instantaneamente
+- Persistência via `localStorage` — lembra o idioma escolhido
+- Contexto React (`LangContext`) com hook `useLang()`
+
+### 🤖 Provedores de IA (alternáveis nas configurações)
+
+#### ☁️ Replicate (Nuvem)
+| Modelo | Tipo |
+|--------|------|
+| Meta Llama 3 8B | Texto (padrão) |
+| Meta Llama 3 70B | Texto |
+| Meta Llama 3.1 405B | Texto (premium) |
+| Meta Llama 2 70B/13B/7B | Texto (legado) |
+| LLaVA 13B | Visão (imagens) |
+| Salmonn | Áudio |
+| VideoLLaMA 3 7B | Vídeo |
+
+#### 🖥️ Ollama (Local — 100% offline e gratuito)
+- Qualquer modelo instalado localmente (`llama3`, `llava`, `mistral`, `gemma2`, etc.)
+- URL do servidor configurável (padrão: `http://localhost:11434`)
+- Suporte a imagens com modelos de visão (`llava`)
+- Streaming via NDJSON em tempo real
+
+### 📎 Suporte Multimodal
+- **Imagens** — enviadas como base64, processadas por LLaVA
+- **Áudio** — processado pelo modelo Salmonn
+- **Vídeo** — processado pelo VideoLLaMA 3
+- **Arquivos de texto** (`.txt`, `.csv`, `.md`) — conteúdo injetado no chat
+- Preview de mídia com botão de remoção antes de enviar
+
+### 🛡️ Tratamento de Erros
+- **402** (sem créditos Replicate) → toast com link para billing
+- **429** (rate limit) → toast com tempo de espera extraído da resposta
+- **503** (Ollama offline) → toast com instrução `ollama serve`
+- **Modelo sem visão + imagem** → aviso bloqueando envio antes de desperdiçar tempo
+
+### ⚙️ Painel de Configurações
+- Toggle **☁️ Replicate / 🖥️ Ollama** com campos contextuais
+- System prompt personalizável
+- Controles de Temperatura, Top-p e Máximo de Tokens
+- Campo seguro para o token da API Replicate
+
+---
+
+## 🚀 Como usar
+
+### Pré-requisitos
+- Node.js 18+
+- npm ou yarn
+
+### Instalação
+
+```bash
+git clone https://github.com/Luann8/Chat-boot-llama.git
+cd Chat-boot-llama
+npm install
+>>>>>>> 60d989c (docs: README completo com guia de instalação e funcionalidades)
 npm run dev
 </pre>
 
+<<<<<<< HEAD
 <p>Open <strong>http://localhost:5173</strong> to see the component in action.</p>
 
 <hr />
@@ -323,3 +407,86 @@ This component draws heavy inspiration from modern SaaS design systems and the i
     <img src="https://img.shields.io/badge/Built_for-Startups_and_SaaS-FF6B6B?style=flat-square" />
     <img src="https://img.shields.io/badge/Ready_for-Vercel_·_Netlify-000?style=flat-square&logo=vercel" />
 </p>
+=======
+Acesse `http://localhost:3000`
+
+---
+
+### Modo Local (Ollama — Gratuito)
+
+```bash
+# 1. Instale o Ollama
+# https://ollama.com/download
+
+# 2. Baixe um modelo de texto
+ollama pull llama3
+
+# 3. (Opcional) Baixe um modelo de visão para usar com imagens
+ollama pull llava
+```
+
+O serviço inicia automaticamente. No app, vá em **⚙️ Configurações → 🖥️ Ollama (Local)**.
+
+---
+
+### Modo Nuvem (Replicate)
+
+1. Crie uma conta em [replicate.com](https://replicate.com)
+2. Gere um token em [replicate.com/account/api-tokens](https://replicate.com/account/api-tokens)
+3. Ao abrir o app, cole o token na tela inicial
+4. Selecione **☁️ Replicate (Nuvem)** nas configurações
+
+> ⚠️ O Replicate é pago por uso. O modelo **Llama 3 8B** é o mais barato para testes.
+
+---
+
+## 🏗️ Estrutura do Projeto
+
+```
+app/
+├── api/
+│   └── route.js          # Roteamento Replicate / Ollama com tratamento de erros
+├── components/
+│   ├── CallToAction.js   # Header animado (glassmorphism)
+│   ├── ChatForm.js       # Input com anexo de mídia
+│   ├── Dropdown.js       # Seletor de modelos
+│   ├── EmptyState.js     # Estado inicial do chat
+│   ├── Message.js        # Renderização de mensagens
+│   ├── Metrics.js        # Métricas de performance
+│   ├── SlideOver.js      # Painel de configurações
+│   └── TokenForm.js      # Tela de configuração do token
+├── LangContext.js        # Contexto de internacionalização
+├── translations.js       # Dicionários PT / EN / ES
+├── layout.js             # Layout raiz com LangProvider
+└── page.js               # Orquestrador principal
+styles/
+└── globals.css           # Design system (tokens, glassmorphism)
+```
+
+---
+
+## 🌍 Internacionalização
+
+Para adicionar um novo idioma, edite `app/translations.js`:
+
+```js
+export const translations = {
+  fr: {
+    title: "Plateforme IA White-Label",
+    // ... adicione todas as chaves
+  }
+};
+```
+
+Depois adicione a opção no seletor em `app/page.js`.
+
+---
+
+## 📄 Licença
+
+MIT © [Luann8](https://github.com/Luann8)
+
+---
+
+> Projeto open-source — fique à vontade para fazer fork, contribuir e personalizar! 🚀
+>>>>>>> 60d989c (docs: README completo com guia de instalação e funcionalidades)
