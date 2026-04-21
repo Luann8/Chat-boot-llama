@@ -4,7 +4,8 @@
     <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
     <img src="https://img.shields.io/badge/i18n-Context_API-4B32C3?style=for-the-badge&logo=local&logoColor=white" alt="i18n" />
     <img src="https://img.shields.io/badge/ESLint-Enabled-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint" />
-    <img src="https://img.shields.io/badge/Prettier-Enabled-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="Prettier" />
+    <img src="https://img.shields.io/badge/Next.js-Enabled-F7B93E?style=for-the-badge&logo=prettier&logoColor=black" alt="next" />
+
 </p>
 
 <p align="center">
@@ -12,11 +13,6 @@
     <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome" />
 </p>
 
-<p align="center">
-    <img src="https://img.shields.io/badge/status-live_success-00C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
-    <img src="https://img.shields.io/badge/deploy-ready-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Deploy Ready" />
-    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4?style=for-the-badge&logo=prettier&logoColor=white" alt="Code Style" />
-</p>
 
 <!-- ============================================ -->
 <!-- HEADER                                        -->
